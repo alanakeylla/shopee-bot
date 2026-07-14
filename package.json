@@ -1,0 +1,14 @@
+{
+  "name": "shopee-playwright-service",
+  "version": "1.0.0",
+  "description": "Serviço Playwright para coletar ofertas da Shopee",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.54.1",
+    "axios": "^1.10.0"
+  }
+}
