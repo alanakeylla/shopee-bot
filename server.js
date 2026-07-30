@@ -28,7 +28,7 @@ app.get("/buscar", async (req, res) => {
     try {
 
         await page.goto(
-            https://shopee.com.br/search?keyword=${encodeURIComponent(termo)},
+            'https://shopee.com.br/search?keyword=${encodeURIComponent(termo)},
             {
                 waitUntil: "networkidle"
             }
